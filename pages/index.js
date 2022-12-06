@@ -76,7 +76,7 @@ export default function Index() {
                                     src={logoPic}
                                     className="w-full rounded-t-lg shadow-sky-900 glow-xl"
                                 />
-                                <blockquote className="relative p-4 mb-4 shadow-sky-900 glow-xl">
+                                <blockquote className="relative p-4 mb-0 rounded-b-lg shadow-sky-900 glow-xl">
                                     <svg
                                         preserveAspectRatio="none"
                                         xmlns="http://www.w3.org/2000/svg"
@@ -89,7 +89,7 @@ export default function Index() {
                                         ></polygon>
                                     </svg>
                                     <h4 className="text-3xl font-bold text-sky-400">
-                                        Decentralized Training of <span className="text-rose-500 font-bold uppercase">AGI</span>
+                                        Decentralization of <span className="text-rose-500 font-bold uppercase">AGI</span>
                                     </h4>
                                     <p className="text-xl mt-2 text-slate-300">
                                         The best way to enable decentralized training of <span className="text-rose-500 font-bold uppercase">AGI</span> is through the use of a 
