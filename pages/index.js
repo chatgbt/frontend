@@ -13,9 +13,9 @@ export default function Index() {
     return (
         <>
             <IndexNavbar />
-            <section className="header relative items-center flex mt-12">
-                <div className="container mx-auto items-center flex flex-wrap z-2">
-                    <div className="w-full bg-gray-900 bg-opacity-90 shadow-sky-500 glow-sm rounded-sm md:w-8/12 lg:w-6/12 xl:w-6/12 px-4 m-0">
+            <section className="header mt-12 items-center flex ">
+                <div className="container mx-auto items-center flex flex-wrap  z-4">
+                    <div className="w-full mt-12 bg-gray-900 bg-opacity-90 shadow-sky-500 glow-sm rounded-sm md:w-8/12 lg:w-6/12 xl:w-6/12 px-4 m-0">
                         <div className="py-0 mt-4 sm:pt-0 lg:pt-0 lg:-mt-2">
                             <h2 className="font-semibold text-max pointer-events-none lg:relative lg:-top-4 lg:-left-10">
                                 <Logo weight={600} />
@@ -26,12 +26,12 @@ export default function Index() {
                             <p className="mt-4 text-xl leading-relaxed text-slate-300">
                                 Artificial general intelligence (<span className="text-rose-500 font-bold uppercase">AGI</span>) is a type of advanced AI that has the ability to learn and adapt to new environments and tasks, similar to a human being. 
                                 It has the potential to revolutionize many aspects of our lives, from healthcare to transportation to education. However, 
-                                developing <span className="text-rose-500 font-bold uppercase">AGI</span> is a complex and challenging task that requires significant expertise and resources.
+                                developing <span className="text-rose-600 font-bold uppercase">AGI</span> is a complex and challenging task that requires significant expertise and resources.
                             </p>
                             <p className="my-2 lg:mt-4 text-xl leading-relaxed text-slate-300">
                                 Our approach to addressing these challenges is to use a decentralized training method, 
                                 which involve leveraging the collective power of many different computers and devices 
-                                to train <span className="text-rose-500 font-bold uppercase">AGI</span> systems.
+                                to train <span className="text-rose-600 font-bold uppercase">AGI</span> systems.
                             </p>  
                             <p className="my-2 lg:mt-4 text-2xl subpixel-antialiased leading-relaxed text-slate-300">
                                 We call it <span className="text-rose-500 font-bold uppercase">Generative Byzentine Training</span>.
@@ -40,7 +40,7 @@ export default function Index() {
                     </div>
                 </div>
                 <Image
-                    className="absolute z-0 b-auto right-0 top-0 hidden lg:inline sm:mt-10 shadow-sky-900 glow-xl"
+                    className="absolute z-2 b-auto right-0 top-0 hidden lg:inline sm:mt-10 shadow-sky-900 glow-xl"
                     src={logoPic}
                     priority={true}
 
@@ -67,16 +67,16 @@ export default function Index() {
                         ></polygon>
                     </svg>
                 </div>
-                <div className="container mx-auto z-4">
+                <div className="container mx-auto z-[10]">
                     <div className="flex flex-wrap items-center">
                         <div className="z-3 w-11/12 md:w-6/12 lg:w-4/12 px-2 md:px-4 mr-auto ml-auto mt-4 lg:-mt-32">
                             <div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-inner shadow-gray-700 rounded-lg bg-zinc-700">
                                 <Image
                                     palceholder="empty"
                                     src={logoPic}
-                                    className="w-full rounded-t-lg"
+                                    className="w-full rounded-t-lg shadow-sky-900 glow-xl"
                                 />
-                                <blockquote className="relative p-4 mb-4">
+                                <blockquote className="relative p-4 mb-4 shadow-sky-900 glow-xl">
                                     <svg
                                         preserveAspectRatio="none"
                                         xmlns="http://www.w3.org/2000/svg"
