@@ -34,10 +34,13 @@ export default function Index() {
                                 which involve leveraging the collective power of many different computers and devices 
                                 to train <Ticker weight={600} /> systems.
                             </p>  
-                            <p className="my-2 lg:mt-4 text-2xl subpixel-antialiased leading-relaxed text-slate-300">
-                                We call it <span className="text-rose-500 font-bold uppercase">Generative Byzentine Training</span>.
-                            </p>                          
+                                                   
                         </div>
+                    </div>
+                    <div className="w-full mt-6 z-2 text-center">
+                        <p className="my-2 lg:mt-4 text-2xl subpixel-antialiased leading-relaxed text-slate-300">
+                            We call it <span className="text-rose-500 font-bold uppercase">Generative Byzentine Training</span>.
+                        </p>   
                     </div>
                 </div>
                 <Image
