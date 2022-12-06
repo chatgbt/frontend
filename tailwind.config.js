@@ -12,9 +12,11 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'press-start': ['"Press Start 2P"', 'cursive'],
-        'train-one': ['"Train One"', 'cursive'],
+        'saira-stencil-one': ['"Saira Stencil One"', 'cursive'],
+        'goldman': ['"Goldman"', 'cursive'],
         'zen-dots': ['"Zen Dots"', 'cursive'],
+        'squada-one': ['"Squada One"', 'cursive'],
+        'oxanium': ['"Oxanium"', 'cursive'],
       },
       minHeight: {
         "screen-75": "75vh",
