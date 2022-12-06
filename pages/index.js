@@ -15,7 +15,7 @@ export default function Index() {
             <IndexNavbar />
             <section className="header mt-12 items-center flex ">
                 <div className="container mx-auto items-center flex flex-wrap  z-4">
-                    <div className="w-full mt-12 bg-gray-900 bg-opacity-90 shadow-sky-500 glow-sm rounded-sm md:w-8/12 lg:w-6/12 xl:w-6/12 px-4 m-0">
+                    <div className="w-full z-2 mt-12 bg-gray-900 bg-opacity-90 shadow-sky-500 glow-sm rounded-sm md:w-8/12 lg:w-6/12 xl:w-6/12 px-4 m-0">
                         <div className="py-0 mt-4 sm:pt-0 lg:pt-0 lg:-mt-2">
                             <h2 className="font-semibold text-max pointer-events-none lg:relative lg:-top-4 lg:-left-10">
                                 <Logo weight={600} />
@@ -81,7 +81,7 @@ export default function Index() {
                                         preserveAspectRatio="none"
                                         xmlns="http://www.w3.org/2000/svg"
                                         viewBox="0 0 583 95"
-                                        className="absolute left-0 w-full block h-95-px -top-94-px"
+                                        className="hidden absolute left-0 w-full lg:block h-95-px -top-94-px"
                                     >
                                         <polygon
                                             points="0,45 0,95 723,95"
