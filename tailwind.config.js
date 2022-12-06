@@ -11,6 +11,11 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        'press-start': ['"Press Start 2P"', 'cursive'],
+        'train-one': ['"Train One"', 'cursive'],
+        'zen-dots': ['"Zen Dots"', 'cursive'],
+      },
       minHeight: {
         "screen-75": "75vh",
       },

@@ -25,7 +25,7 @@ export default function FooterSmall(props) {
                   href="/"
                   className="hover:font-bold text-sm font-semibold py-1"
                 >
-                  <Logo weight="500" />
+                  <Logo weight={500} />
                 </a>
               </div>
             </div>
@@ -36,7 +36,7 @@ export default function FooterSmall(props) {
                     href="/"
                     className="hover:font-bold text-sm font-semibold py-1"
                   >
-                    <Logo weight="500" />
+                    <Logo weight={500} />
                   </a>
                 </li>
                 <li>

@@ -40,7 +40,7 @@ export default function Index() {
                     </div>
                 </div>
                 <Image
-                    className="absolute z-0 b-auto right-0 top-0 h-full lg:h-auto sm:mt-10 shadow-slate-900 shadow-2xl"
+                    className="absolute z-0 b-auto right-0 top-0 h-full lg:h-auto sm:mt-10 shadow-sky-900 glow-xl"
                     src={logoPic}
                     priority={true}
 
@@ -88,11 +88,15 @@ export default function Index() {
                                             className="text-zinc-700 fill-current"
                                         ></polygon>
                                     </svg>
-                                    <h4 className="text-3xl font-bold ">
-                                        Decentralized Training of AGI
+                                    <h4 className="text-3xl font-bold text-sky-400">
+                                        Decentralized Training of <span className="text-rose-500 font-bold uppercase">AGI</span>
                                     </h4>
                                     <p className="text-xl mt-2 text-slate-300">
-                                        One way to enable decentralized training of AGI is through the use of a decentralized cryptocurrency or "coin" that can be used to incentivize and reward individuals and organizations that contribute their computing power to the training process. This coin would be open source and decentralized, allowing for transparency and collaboration among participants.
+                                        The best way to enable decentralized training of <span className="text-rose-500 font-bold uppercase">AGI</span> is through the use of a 
+                                        decentralized cryptocurrency or "coin" that can be used to incentivize and reward individuals and organizations that contribute their computing power to the training process. 
+                                    </p>
+                                    <p className="text-xl mt-2 text-slate-300">
+                                        Our coin will be open source and decentralized, allowing for transparency and collaboration among participants.
                                     </p>
                                 </blockquote>
                             </div>
@@ -112,7 +116,7 @@ export default function Index() {
                                         </div>
                                         <div className="px-4">
                                             <p className="mb-4 text-xl text-slate-300">
-                                                Decentralized training allows for the use of vast amounts of computing power, which can significantly accelerate the training process and improve the performance of AGI systems.
+                                                Decentralized training allows for the use of vast amounts of computing power, which can significantly accelerate the training process and improve the performance of <span className="text-rose-500 font-bold uppercase">AGI</span> systems.
                                             </p>
                                         </div>
                                     </div>
@@ -127,7 +131,7 @@ export default function Index() {
                                         </div>
                                         <div className="px-4">
                                             <p className="mb-4 text-xl text-slate-300">
-                                                By leveraging the computing power of many different devices, decentralized training can reduce the cost of AGI development, making it more accessible to a wider range of organizations and individuals.
+                                                By leveraging the computing power of many different devices, decentralized training can reduce the cost of <span className="text-rose-500 font-bold uppercase">AGI</span> development, making it more accessible to a wider range of organizations and individuals.
                                             </p>
                                         </div>
                                     </div>                                
@@ -140,7 +144,7 @@ export default function Index() {
                                         </div>
                                         <div className="px-4">
                                             <p className="mb-4 text-xl text-slate-300">
-                                                Decentralized training can foster a more open and collaborative approach to AGI development, allowing for the sharing of data and algorithms, and enabling a wider range of experts and researchers to contribute to the development process.
+                                                Decentralized training can foster a more open and collaborative approach to <span className="text-rose-500 font-bold uppercase">AGI</span> development, allowing for the sharing of data and algorithms, and enabling a wider range of experts and researchers to contribute to the development process.
                                             </p>
                                         </div>
                                     </div>                                    
@@ -177,26 +181,26 @@ export default function Index() {
                                 <div className="text-indigo-400 p-3 mr-2 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-gray-900">
                                     <i className="fas fa-wand-sparkles text-xl"></i>
                                 </div>
-                                <h3 className="text-3xl my-2 font-semibold leading-normal">
+                                <h3 className="text-3xl mt-3 uppercase antialiased ml-12  font-semibold leading-normal">
                                     Technology
                                 </h3>
                             </div>
                             <div className="px-0">
                                 <p className="text-xl leading-relaxed mt-0 mb-4 text-slate-300">
-                                    One way to enable decentralized training of AGI is through the use of a decentralized cryptocurrency or "coin" that can be used to incentivize and reward individuals and organizations that contribute their computing power to the training process. This coin would be open source and decentralized, allowing for transparency and collaboration among participants.
+                                    One way to enable decentralized training of <span className="text-rose-500 font-bold uppercase">AGI</span> is through the use of a decentralized cryptocurrency or "coin" that can be used to incentivize and reward individuals and organizations that contribute their computing power to the training process. This coin would be open source and decentralized, allowing for transparency and collaboration among participants.
                                 </p>
                             </div>
                             <div className="pt-5 flex flex-row">
                                 <div className="text-indigo-400 p-3 mr-2 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-gray-900">
                                     <i className="fas fa-zap text-xl"></i>
                                 </div>
-                                <h3 className="text-3xl my-2 font-semibold leading-normal">
+                                <h3 className="text-3xl mt-3 uppercase antialiased ml-12 font-semibold leading-normal">
                                     Tokenomics
                                 </h3>
                             </div>
                             <div className="px-0">
                                 <p className="mb-4 text-xl text-slate-300">
-                                    To support decentralized training of AGI, the coin would need to have several key features, including:
+                                    To support decentralized training of <span className="text-rose-500 font-bold uppercase">AGI</span>, the coin would need to have several key features, including:
                                 </p>                                                                
                                 <div className="block pb-6">
                                     <span className="text-xs font-semibold inline-block py-1 px-2 rounded-full text-rose-500 bg-gray-800 uppercase last:mr-0 mr-2 mt-2">
@@ -216,48 +220,48 @@ export default function Index() {
                                     </span>
                                 </div>
                                 <p className="mb-4 text-xl text-slate-300">
-                                    Overall, decentralized training of AGI has the potential to accelerate the development of this technology, reduce its costs, and foster greater collaboration and openness among researchers and experts. A decentralized coin that enables and incentivizes decentralized training of AGI could be a valuable tool in realizing this potential.
+                                    Overall, decentralized training of <span className="text-rose-500 font-bold uppercase">AGI</span> has the potential to accelerate the development of this technology, reduce its costs, and foster greater collaboration and openness among researchers and experts. A decentralized coin that enables and incentivizes decentralized training of <span className="text-rose-500 font-bold uppercase">AGI</span> could be a valuable tool in realizing this potential.
                                 </p>
                             </div>
                         </div>
 
                         <div className="z-3 w-5/12 pt-4 pb-8 mb-4 mr-auto ml-auto mt-12 lg:relative">
-                            <div className="z-4 relative flex flex-col min-w-0 mt-4 rounded-md bg-zinc-900 bg-opacity-70 glow-md shadow-red-500 mx-3">
+                            <div className="z-4 relative flex flex-col min-w-0 mt-4 rounded-md bg-slate-900 bg-opacity-70 glow-md shadow-red-500 mx-3">
                                 <div className="px-4 pt-5 flex flex-row">
-                                    <div className="text-rose-600 p-3 mr-2 text-center inline-flex items-center justify-center w-[50px] h-12 mb-5 shadow-lg rounded-full bg-gray-900">
+                                    <div className="text-indigo-700 p-3 mr-2 text-center inline-flex items-center justify-center w-[50px] h-12 mb-5 shadow-lg rounded-full bg-gray-900">
                                         <i className="fas fa-lock"></i>
                                     </div>
-                                    <h6 className="text-3xl my-1 font-semibold">Robust and Secure Blockchain</h6>
+                                    <h6 className="text-3xl my-1 antialiased font-semibold">Robust and Secure Blockchain</h6>
                                 </div>
                                 <div className="px-4 pb-4">
                                     <p className="mb-4 text-xl text-slate-300">
-                                        The coin's blockchain would need to be able to securely and efficiently handle large amounts of data and transactions, and support the complex calculations required for AGI training.
+                                        The coin's blockchain would need to be able to securely and efficiently handle large amounts of data and transactions, and support the complex calculations required for <span className="text-rose-500 font-bold uppercase">AGI</span> training.
                                     </p>
                                 </div>
                             </div>       
-                            <div className="z-4 relative flex flex-col min-w-0 mt-4 rounded-md bg-zinc-900 bg-opacity-70 glow-md shadow-red-500 mx-3">
+                            <div className="z-4 relative flex flex-col min-w-0 mt-4 rounded-md bg-slate-900 bg-opacity-70 glow-md shadow-red-500 mx-3">
                                 <div className="px-4 pt-5 flex flex-row">
-                                    <div className="text-rose-600 p-3 mr-2 text-center inline-flex items-center justify-center w-[50px] h-12 mb-5 shadow-lg rounded-full bg-gray-900">
+                                    <div className="text-indigo-600 p-3 mr-2 text-center inline-flex items-center justify-center w-[50px] h-12 mb-5 shadow-lg rounded-full bg-gray-900">
                                         <i className="fas fa-gift"></i>
                                     </div>
-                                    <h6 className="text-3xl my-1 font-semibold">Incentive mechanisms</h6>
+                                    <h6 className="text-3xl my-1 antialiased font-semibold">Incentive mechanisms</h6>
                                 </div>
                                 <div className="px-4  pb-4">
                                     <p className="mb-4 text-xl text-slate-300">
-                                        The coin would need to have a clear and transparent governance structure and decision-making process, to ensure that the AGI training process is aligned with the interests of all participants.
+                                        The coin would need to have a clear and transparent governance structure and decision-making process, to ensure that the <span className="text-rose-500 font-bold uppercase">AGI</span> training process is aligned with the interests of all participants.
                                     </p>
                                 </div>
                             </div>       
-                            <div className="z-4 relative flex flex-col min-w-0 mt-4 rounded-md bg-zinc-900 bg-opacity-70 glow-md shadow-red-500 mx-3">
+                            <div className="z-4 relative flex flex-col min-w-0 mt-4 rounded-md bg-slate-900 bg-opacity-70 glow-md shadow-red-500 mx-3">
                                 <div className="px-4 pt-5 flex flex-row">
-                                    <div className="text-rose-600 p-3 mr-2 text-center inline-flex items-center justify-center w-[50px] h-12 mb-5 shadow-lg rounded-full bg-gray-900">
+                                    <div className="text-indigo-400 p-3 mr-2 text-center inline-flex items-center justify-center w-[50px] h-12 mb-5 shadow-lg rounded-full bg-gray-900">
                                         <i className="fas fa-code-compare"></i>
                                     </div>
-                                    <h6 className="text-3xl my-1 font-semibold">Governance and decision-making</h6>
+                                    <h6 className="text-3xl my-1 antialiased font-semibold">Governance and decision-making</h6>
                                 </div>
                                 <div className="px-4  pb-4">
                                     <p className="mb-4 text-xl text-slate-300">
-                                        The coin would need to have a clear and transparent governance structure and decision-making process, to ensure that the AGI training process is aligned with the interests of all participants.
+                                        The coin will have a clear and transparent governance structure and decision-making process, to ensure that the <span className="text-rose-500 font-bold uppercase">AGI</span> training process is aligned with the interests of all participants.
                                     </p>
                                 </div>
                             </div>       
