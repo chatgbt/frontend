@@ -81,7 +81,7 @@ export default function Index() {
                                         preserveAspectRatio="none"
                                         xmlns="http://www.w3.org/2000/svg"
                                         viewBox="0 0 583 95"
-                                        className="hidden absolute left-0 w-full lg:block h-95-px -top-94-px"
+                                        className="opacity-0 lg:opacity-100 xl:opacity-100 absolute left-0 w-full lg:block xl:block h-95-px -top-94-px"
                                     >
                                         <polygon
                                             points="0,45 0,95 723,95"
