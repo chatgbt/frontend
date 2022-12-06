@@ -107,7 +107,7 @@ export default function Index() {
                                 <div className="w-11/12 lg:px-4">
                                     <div className=" relative flex flex-col mt-4">
                                         <div className="px-4 pt-5 flex flex-row">
-                                            <div className="text-indigo-800 p-3 mr-2 text-center inline-flex items-center justify-center w-1/12 h-12 mb-5 shadow-lg rounded-full bg-gray-900">
+                                            <div className="text-indigo-700 p-3 mr-2 text-center inline-flex items-center justify-center w-[50px] h-12 mb-5 rounded-full bg-gray-900 shadow-indigo-700 glow-sm">
                                                 <i className="fas fa-vial"></i>
                                             </div>
                                             <h6 className="text-3xl my-1 font-semibold">
@@ -122,7 +122,7 @@ export default function Index() {
                                     </div>
                                     <div className="relative flex flex-col min-w-0 mt-4">
                                         <div className="px-4 pt-5 flex flex-row">
-                                            <div className="text-indigo-700 p-3 mr-2 text-center inline-flex items-center justify-center w-1/12 h-12 mb-5 shadow-lg rounded-full bg-gray-900">
+                                            <div className="text-indigo-700 p-3 mr-2 text-center inline-flex items-center justify-center w-[50px] h-12 mb-5 rounded-full bg-gray-900 shadow-indigo-700 glow-sm">
                                                 <i className="fas fa-award"></i>
                                             </div>
                                             <h6 className="text-3xl my-1 font-semibold">
@@ -137,7 +137,7 @@ export default function Index() {
                                     </div>                                
                                     <div className="relative flex flex-col min-w-0 mt-4">
                                         <div className="px-4 pt-5 flex flex-row">
-                                            <div className="text-indigo-700 p-3 mr-2 text-center inline-flex items-center justify-center w-1/12 h-12 mb-5 shadow-lg rounded-full bg-gray-900">
+                                            <div className="text-indigo-700 p-3 mr-2 text-center inline-flex items-center justify-center w-[50px] h-12 mb-5   rounded-full bg-gray-900 shadow-indigo-700 glow-sm">
                                                 <i className="fas fa-seedling"></i>
                                             </div>
                                             <h6 className="text-3xl my-1 font-semibold">Openness</h6>
@@ -178,7 +178,7 @@ export default function Index() {
                     <div className="flex flex-wrap items-center">
                         <div className="z-3 w-full md:w-6/12 px-4 lg:px-12 md:px-4 ml-auto mr-auto bg-zinc-700 rounded-xl glow-lg shadow-sky-600">
                             <div className="pt-5 flex flex-row">
-                                <div className="text-indigo-400 p-3 mr-2 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-gray-900">
+                                <div className="text-indigo-700 p-3 mr-2 text-center inline-flex items-center justify-center w-16 h-16 mb-6  rounded-full bg-gray-900 shadow-indigo-700 glow-sm">
                                     <i className="fas fa-wand-sparkles text-xl"></i>
                                 </div>
                                 <h3 className="text-3xl mt-3 uppercase antialiased ml-12  font-semibold leading-normal">
@@ -191,7 +191,7 @@ export default function Index() {
                                 </p>
                             </div>
                             <div className="pt-5 flex flex-row">
-                                <div className="text-indigo-400 p-3 mr-2 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-gray-900">
+                                <div className="text-indigo-700 p-3 mr-2 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-indigo-700 glow-sm rounded-full bg-gray-900">
                                     <i className="fas fa-zap text-xl"></i>
                                 </div>
                                 <h3 className="text-3xl mt-3 uppercase antialiased ml-12 font-semibold leading-normal">
@@ -228,7 +228,7 @@ export default function Index() {
                         <div className="z-3 lg:w-5/12 pt-4 lg:pb-8 -mb-20 lg:mb-4 mr-auto ml-auto mt-12 lg:relative">
                             <div className="z-4 relative flex flex-col min-w-0 mt-4 rounded-md bg-slate-900 bg-opacity-70 glow-md shadow-red-500 mx-3">
                                 <div className="px-4 pt-5 flex flex-row">
-                                    <div className="text-indigo-700 p-3 mr-2 text-center inline-flex items-center justify-center w-[50px] h-12 mb-5 shadow-lg rounded-full bg-gray-900">
+                                    <div className="text-indigo-700 p-3 mr-2 text-center inline-flex items-center justify-center w-[50px] h-12 mb-5 shadow-indigo-700 glow-sm rounded-full bg-gray-900">
                                         <i className="fas fa-lock"></i>
                                     </div>
                                     <h6 className="text-3xl my-1 antialiased font-semibold">Robust and Secure Blockchain</h6>
@@ -241,7 +241,7 @@ export default function Index() {
                             </div>       
                             <div className="z-4 relative flex flex-col min-w-0 mt-4 rounded-md bg-slate-900 bg-opacity-70 glow-md shadow-red-500 mx-3">
                                 <div className="px-4 pt-5 flex flex-row">
-                                    <div className="text-indigo-600 p-3 mr-2 text-center inline-flex items-center justify-center w-[50px] h-12 mb-5 shadow-lg rounded-full bg-gray-900">
+                                    <div className="text-indigo-600 p-3 mr-2 text-center inline-flex items-center justify-center w-[50px] h-12 mb-5 shadow-indigo-700 glow-sm rounded-full bg-gray-900">
                                         <i className="fas fa-gift"></i>
                                     </div>
                                     <h6 className="text-3xl my-1 antialiased font-semibold">Incentive mechanisms</h6>
@@ -254,7 +254,7 @@ export default function Index() {
                             </div>       
                             <div className="z-4 relative flex flex-col min-w-0 mt-4 rounded-md bg-slate-900 bg-opacity-70 glow-md shadow-red-500 mx-3">
                                 <div className="px-4 pt-5 flex flex-row">
-                                    <div className="text-indigo-400 p-3 mr-2 text-center inline-flex items-center justify-center w-[50px] h-12 mb-5 shadow-lg rounded-full bg-gray-900">
+                                    <div className="text-indigo-400 p-3 mr-2 text-center inline-flex items-center justify-center w-[50px] h-12 mb-5 shadow-indigo-700 glow-sm rounded-full bg-gray-900">
                                         <i className="fas fa-code-compare"></i>
                                     </div>
                                     <h6 className="text-3xl my-1 antialiased font-semibold">Governance and decision-making</h6>
