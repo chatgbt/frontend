@@ -13,10 +13,10 @@ export default function Index() {
     return (
         <>
             <IndexNavbar />
-            <section className="header relative items-center flex h-[70vh] mt-0">
+            <section className="header relative items-center flex mt-12">
                 <div className="container mx-auto items-center flex flex-wrap z-2">
-                    <div className="w-full bg-gray-900 bg-opacity-90 shadow-sky-500 glow-sm rounded-sm md:w-8/12 lg:w-6/12 xl:w-6/12 px-6">
-                        <div className="py-2 mt-2 sm:pt-0 lg:pt-0 lg:-mt-2">
+                    <div className="w-full bg-gray-900 bg-opacity-90 shadow-sky-500 glow-sm rounded-sm md:w-8/12 lg:w-6/12 xl:w-6/12 px-4 m-0">
+                        <div className="py-0 mt-4 sm:pt-0 lg:pt-0 lg:-mt-2">
                             <h2 className="font-semibold text-max pointer-events-none lg:relative lg:-top-4 lg:-left-10">
                                 <Logo weight={600} />
                             </h2>
@@ -40,7 +40,7 @@ export default function Index() {
                     </div>
                 </div>
                 <Image
-                    className="absolute z-0 b-auto right-0 top-0 h-full lg:h-auto sm:mt-10 shadow-sky-900 glow-xl"
+                    className="absolute z-0 b-auto right-0 top-0 hidden lg:inline sm:mt-10 shadow-sky-900 glow-xl"
                     src={logoPic}
                     priority={true}
 
@@ -225,7 +225,7 @@ export default function Index() {
                             </div>
                         </div>
 
-                        <div className="z-3 w-5/12 pt-4 pb-8 mb-4 mr-auto ml-auto mt-12 lg:relative">
+                        <div className="z-3 lg:w-5/12 pt-4 lg:pb-8 -mb-20 lg:mb-4 mr-auto ml-auto mt-12 lg:relative">
                             <div className="z-4 relative flex flex-col min-w-0 mt-4 rounded-md bg-slate-900 bg-opacity-70 glow-md shadow-red-500 mx-3">
                                 <div className="px-4 pt-5 flex flex-row">
                                     <div className="text-indigo-700 p-3 mr-2 text-center inline-flex items-center justify-center w-[50px] h-12 mb-5 shadow-lg rounded-full bg-gray-900">
@@ -271,9 +271,9 @@ export default function Index() {
                 </div>
             </section>
 
-            <section className="pb-16 bg-slate-700 relative pt-2 z-0">
+            <section className="pb-8 bg-slate-700 relative pt-2 z-0">
                 <div
-                    className="lg:-mt-20 top-0 bottom-auto left-0 right-0 w-full absolute h-20"
+                    className="-mt-20 top-0 bottom-auto left-0 right-0 w-full absolute h-20"
                     style={{ transform: "translateZ(0)" }}
                 >
                     <svg
