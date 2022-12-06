@@ -1,4 +1,3 @@
-import React, { useEffect, useState } from "react";
 import Image from 'next/image';
 import logoPic from '../public/img/brand/chatGDT.jpg';
 
@@ -6,15 +5,26 @@ import IndexNavbar from "../components/Navbars/IndexNavbar.js";
 import FooterSmall from "../components/Footers/FooterSmall.js";
 import Logo from "../components/Logo/Logo";
 import Ticker from "../components/Logo/Ticker";
-import { ToastContainer } from 'react-toastify';
 
-import 'react-toastify/dist/ReactToastify.min.css';
-
+function ImportantLetter({children, ...props}) {
+    return (
+        <span {...props} className="font-saira-stencil-one text-rose-600 font-bold uppercase">
+            {children}
+        </span>
+    )
+}
+function FancyWords() {
+    return (
+        <>
+            <ImportantLetter>A</ImportantLetter>rtificial <ImportantLetter>G</ImportantLetter>eneral <ImportantLetter>I</ImportantLetter>ntelligence 
+        </>
+    )
+}
 export default function Index() {
     return (
         <>
             <IndexNavbar />
-            <section className="header mt-12 items-center flex ">
+            <section className="header mt-6 items-center flex ">
                 <div className="container mx-auto items-center flex flex-wrap  z-4">
                     <div className="w-full z-2 mt-12 bg-gray-900 bg-opacity-90 shadow-sky-500 glow-sm rounded-sm md:w-8/12 lg:w-6/12 xl:w-6/12 px-4 m-0">
                         <div className="py-0 mt-4 sm:pt-0 lg:pt-0 lg:-mt-2">
@@ -25,7 +35,8 @@ export default function Index() {
                                 the official <Logo weight={600} /> project
                             </h3>
                             <p className="mt-4 text-xl leading-relaxed text-slate-300">
-                                <span className="font-saira-stencil-one">A</span>rtificial <span className="font-saira-stencil-one">G</span>eneral <span className="font-saira-stencil-one">I</span>ntelligence (<Ticker weight={600} />) is a type of advanced AI that has the ability to learn and adapt to new environments and tasks, similar to a human being. 
+                                <FancyWords/> (<Ticker weight={600} />) is a type of advanced AI 
+                                that has the ability to learn and adapt to new environments and tasks, similar to a human being. 
                                 It has the potential to revolutionize many aspects of our lives, from healthcare to transportation to education. However, 
                                 developing <Ticker weight={600} /> is a complex and challenging task that requires significant expertise and resources.
                             </p>
@@ -96,7 +107,7 @@ export default function Index() {
                                         Decentralization of <Ticker weight={600} />
                                     </h4>
                                     <p className="text-xl mt-2 text-slate-300">
-                                        The best way to enable decentralized training of <span className="text-rose-500 subpixel-antialiased font-bold uppercase">AGI</span> is through the use of a 
+                                        The best way to enable decentralized training of <Ticker weight={600} />  is through the use of a 
                                         decentralized cryptocurrency or "coin" that can be used to incentivize and reward individuals and organizations that contribute their computing power to the training process. 
                                     </p>
                                     <p className="text-xl mt-2 text-slate-300">
@@ -180,21 +191,9 @@ export default function Index() {
                 </div>
                 <div className="container mx-auto pb-16 z-3 mt-6 mb-12">
                     <div className="flex flex-wrap items-center">
-                        <div className="z-3 w-full md:w-6/12 px-4 lg:px-12 md:px-4 ml-auto mr-auto bg-zinc-700 rounded-xl glow-lg shadow-sky-600">
-                            <div className="pt-5 flex flex-row">
-                                <div className="text-indigo-700 p-3 mr-2 text-center inline-flex items-center justify-center w-16 h-16 mb-6  rounded-full bg-gray-900 shadow-indigo-700 glow-sm">
-                                    <i className="fas fa-wand-sparkles text-xl"></i>
-                                </div>
-                                <h3 className="text-3xl mt-3 uppercase antialiased ml-12  font-semibold leading-normal">
-                                    Technology
-                                </h3>
-                            </div>
-                            <div className="px-0">
-                                <p className="text-xl leading-relaxed mt-0 mb-4 text-slate-300">
-                                    One way to enable decentralized training of <Ticker weight={600} /> is through the use of a decentralized cryptocurrency or "coin" that can be used to incentivize and reward individuals and organizations that contribute their computing power to the training process. This coin would be open source and decentralized, allowing for transparency and collaboration among participants.
-                                </p>
-                            </div>
-                            <div className="pt-5 flex flex-row">
+                        <div className="z-3 w-full md:w-6/12 p-4 lg:px-12 md:px-4 ml-auto mr-auto bg-zinc-700 rounded-xl glow-lg shadow-sky-600">
+                            
+                            <div className="pt-2 flex flex-row">
                                 <div className="text-indigo-700 p-3 mr-2 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-indigo-700 glow-sm rounded-full bg-gray-900">
                                     <i className="fas fa-zap text-xl"></i>
                                 </div>
@@ -204,6 +203,9 @@ export default function Index() {
                             </div>
                             <div className="px-0">
                                 <p className="mb-4 text-xl text-slate-300">
+                                    The tokenomics for <Ticker weight={600} /> token will be carefully designed and balanced to incentivize and reward participants in the <Ticker weight={600} /> training process, while also ensuring the stability and sustainability of the token itself.
+                                </p>
+                                <p className="mb-4 text-xl text-slate-300">
                                     To support decentralized training of <Ticker weight={600} />, the coin would need to have several key features, including:
                                 </p>                                                                
                                 <div className="block pb-6">
@@ -211,20 +213,32 @@ export default function Index() {
                                         Governance
                                     </span>
                                     <span className="text-xs font-semibold inline-block py-1 px-2 rounded-full text-rose-500 bg-gray-800 uppercase last:mr-0 mr-2 mt-2">
-                                        Robust
+                                        Deflationary Policies
+                                    </span>
+                                    <span className="text-xs font-semibold inline-block py-1 px-2 rounded-full text-rose-500 bg-gray-800 uppercase last:mr-0 mr-2 mt-2">
+                                        Robustness
                                     </span>
                                     <span className="text-xs font-semibold inline-block py-1 px-2 rounded-full text-rose-500 bg-gray-800 uppercase last:mr-0 mr-2 mt-2">
                                         Incentive Mechanisms
                                     </span>
                                     <span className="text-xs font-semibold inline-block py-1 px-2 rounded-full text-rose-500 bg-gray-800 uppercase last:mr-0 mr-2 mt-2">
-                                        Secure
+                                        Security
                                     </span>
                                     <span className="text-xs font-semibold inline-block py-1 px-2 rounded-full text-rose-500 bg-gray-800 uppercase last:mr-0 mr-2 mt-2">
-                                        Decision-making
+                                        Miner Rewards
+                                    </span>
+                                    <span className="text-xs font-semibold inline-block py-1 px-2 rounded-full text-rose-500 bg-gray-800 uppercase last:mr-0 mr-2 mt-2">
+                                        Transaction Fees
+                                    </span>
+                                    <span className="text-xs font-semibold inline-block py-1 px-2 rounded-full text-rose-500 bg-gray-800 uppercase last:mr-0 mr-2 mt-2">
+                                        Inflationary Policies
                                     </span>
                                 </div>
                                 <p className="mb-4 text-xl text-slate-300">
-                                    Overall, decentralized training of <Ticker weight={600} /> has the potential to accelerate the development of this technology, reduce its costs, and foster greater collaboration and openness among researchers and experts. A decentralized coin that enables and incentivizes decentralized training of <Ticker weight={600} /> could be a valuable tool in realizing this potential.
+                                    Overall, decentralized training of <Ticker weight={600} /> has the potential to accelerate the development of this technology,
+                                     reduce its costs, and foster greater collaboration and openness among researchers and experts.
+                                      A decentralized coin that enables and incentivizes decentralized training of <Ticker weight={600} /> could
+                                       be a valuable tool in realizing this potential.
                                 </p>
                             </div>
                         </div>
@@ -239,7 +253,7 @@ export default function Index() {
                                 </div>
                                 <div className="px-4 pb-4">
                                     <p className="mb-4 text-xl text-slate-300">
-                                        The coin's blockchain would need to be able to securely and efficiently handle large amounts of data and transactions, and support the complex calculations required for <Ticker weight={600} /> training.
+                                        Ethereum Proof of Stake will be able to securely and efficiently handle large amounts of data and transactions, and support the complex calculations required for <Ticker weight={600} /> training.
                                     </p>
                                 </div>
                             </div>       
@@ -252,14 +266,14 @@ export default function Index() {
                                 </div>
                                 <div className="px-4  pb-4">
                                     <p className="mb-4 text-xl text-slate-300">
-                                        The coin would need to have a clear and transparent governance structure and decision-making process, to ensure that the <Ticker weight={600} /> training process is aligned with the interests of all participants.
+                                        The coin will include mechanisms that incentivize and reward participants for contributing their computing power to the training process, such as mining rewards and transaction fees.
                                     </p>
                                 </div>
                             </div>       
                             <div className="z-4 relative flex flex-col min-w-0 mt-4 rounded-md bg-slate-900 bg-opacity-70 glow-md shadow-red-500 mx-3">
                                 <div className="px-4 pt-5 flex flex-row">
                                     <div className="text-indigo-400 p-3 mr-2 text-center inline-flex items-center justify-center w-[50px] h-12 mb-5 shadow-indigo-700 glow-sm rounded-full bg-gray-900">
-                                        <i className="fas fa-code-compare"></i>
+                                        <i className="fas fa-crown"></i>
                                     </div>
                                     <h6 className="text-3xl my-1 antialiased font-semibold">Governance and decision-making</h6>
                                 </div>
@@ -268,7 +282,46 @@ export default function Index() {
                                         The coin will have a clear and transparent governance structure and decision-making process, to ensure that the <Ticker weight={600} /> training process is aligned with the interests of all participants.
                                     </p>
                                 </div>
-                            </div>       
+                            </div>     
+                            <div className="z-4 relative flex flex-col min-w-0 mt-4 rounded-md bg-slate-900 bg-opacity-70 glow-md shadow-red-500 mx-3">
+                                <div className="px-4 pt-5 flex flex-row">
+                                    <div className="text-indigo-400 p-3 mr-2 text-center inline-flex items-center justify-center w-[50px] h-12 mb-5 shadow-indigo-700 glow-sm rounded-full bg-gray-900">
+                                        <i className="fas fa-hammer"></i>
+                                    </div>
+                                    <h6 className="text-3xl my-1 antialiased font-semibold">Miners</h6>
+                                </div>
+                                <div className="px-4  pb-4">
+                                    <p className="mb-4 text-xl text-slate-300">
+                                        Miners are individuals or organizations that contribute their computing power to the <Ticker weight={600} />  training process, and they would be rewarded with tokens for their contributions. The amount of tokens awarded to miners would be determined by a variety of factors, including the amount of computing power they contribute and the difficulty of the <Ticker weight={600} />  training tasks they are working on.
+                                    </p>
+                                </div>
+                            </div>  
+                            <div className="z-4 relative flex flex-col min-w-0 mt-4 rounded-md bg-slate-900 bg-opacity-70 glow-md shadow-red-500 mx-3">
+                                <div className="px-4 pt-5 flex flex-row">
+                                    <div className="text-indigo-400 p-3 mr-2 text-center inline-flex items-center justify-center w-[50px] h-12 mb-5 shadow-indigo-700 glow-sm rounded-full bg-gray-900">
+                                        <i className="fas fa-code-compare"></i>
+                                    </div>
+                                    <h6 className="text-3xl my-1 antialiased font-semibold">Transaction Fees</h6>
+                                </div>
+                                <div className="px-4  pb-4">
+                                    <p className="mb-4 text-xl text-slate-300">
+                                        Whenever tokens are transferred between different parties, a small transaction fee would be charged. This fee would be used to reward the miners who are responsible for verifying and recording the transaction on the blockchain.
+                                    </p>
+                                </div>
+                            </div>  
+                            <div className="z-4 relative flex flex-col min-w-0 mt-4 rounded-md bg-slate-900 bg-opacity-70 glow-md shadow-red-500 mx-3">
+                                <div className="px-4 pt-5 flex flex-row">
+                                    <div className="text-indigo-400 p-3 mr-2 text-center inline-flex items-center justify-center w-[50px] h-12 mb-5 shadow-indigo-700 glow-sm rounded-full bg-gray-900">
+                                        <i className="fas fa-comments-dollar"></i>
+                                    </div>
+                                    <h6 className="text-3xl my-1 antialiased font-semibold">Supply and Demand</h6>
+                                </div>
+                                <div className="px-4  pb-4">
+                                    <p className="mb-4 text-xl text-slate-300">
+                                        The tokenomics for an <Ticker weight={600} />  token will include mechanisms for managing the supply and demand for the token, such as inflationary and deflationary policies. This will help to ensure that the value of the token remains stable and that it continues to serve as an effective incentive and reward for <Ticker weight={600} />  training.
+                                    </p>
+                                </div>
+                            </div>    
                         </div>
                     </div>
 
@@ -311,10 +364,6 @@ export default function Index() {
                 </div>
             </section>
             <FooterSmall />
-            <ToastContainer
-                position="bottom-right"
-                theme="dark"
-            />
         </>
     )
 
